@@ -18,7 +18,7 @@ const CardThank = ({ratings }) => {
     change ?   <div className="cardThank__main">
     <div className="cardThank">
       <div className="cardThank__rating">
-        <img src="./public/illustration-thank-you.svg" alt="" />
+        <img src="/illustration-thank-you.svg" alt="" />
         <p>you selected {ratings} out of 5</p>
       </div>
       <div className="cardTank__thankyou">

@@ -48,7 +48,7 @@ function App() {
         <div className="main_container">
           <div className="card_container">
             <div className="container_star">
-              <img src="./src/assets/icon-star.svg" alt="" />
+              <img src="/icon-star.svg" alt="" />
             </div>
             <div className="container_text">
               <h1> How did we do?</h1>
