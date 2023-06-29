@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.main_container {
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.card_container {
+  width: 350px;
+  background-color: #222933;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.container_star {
+  background-color: #222933;
+}
+
+.container_star > img {
+  width: 2rem;
+  height: 2rem;
+  background-color: #42515d;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.container_text {
+  color: white;
+  /* background-color: aqua; */
+  margin-bottom: 1rem;
+}
+
+.container_text > p {
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 14px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.numbers > button {
+  border-radius: 50%;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  background-color: #42515d;
+  transition: 0.3s;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+}
+.numbers > button:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+/* .numbers>button>:active{
+    background-color: hsl(25, 97%, 53%);
+} */
+
+.numbers > button:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.card__button_submit {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 0.8rem 9rem;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  opacity: 90%;
+}
+
+/* AQUI EMPIEZAN LOS ESTILO DE LA TARJETA DE AGRADECIMIENTO */
+
+.cardThank__main {
+    padding-top: 10rem;
+    background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+.cardThank {
+  height: 33rem;
+  width: 25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #222933;
+  border-radius: 1rem;
+}
+
+.cardTank__thankyou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 1rem;
+}
+
+.cardTank__thankyou > img {
+  display: flex;
+}
+
+.cardThank__rating {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardThank__rating > p {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.cardTank__thankyou > p {
+  text-align: center;
+  line-height: 1.7rem;
+  padding: 0rem 1rem;
+}
+
+.cardThank > button {
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: 00.1rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: ;
+}
+
+.cardThank > button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  opacity: 90%;
+}
